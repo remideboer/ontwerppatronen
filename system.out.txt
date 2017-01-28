@@ -1,0 +1,14 @@
+--------------------- Print lijst Movables ---------------------
+Lekker fietsen
+Vroem vroem
+Ren Ren Woef Woef
+--------------------- Polymorfisme in actie ---------------------
+Dit is een Auto
+Starten maar
+Vroem vroem
+Vroem vroem
+Even tanken
+--------------------- Casten naar bekend type ---------------------
+Vroem vroem
+Starten maar
+Even tanken
