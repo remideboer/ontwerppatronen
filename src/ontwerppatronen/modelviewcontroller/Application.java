@@ -16,6 +16,7 @@ public class Application {
         // nu is er alleen nog 1 controller maar je kunt ook werken met een hoofdcontroller
         // die delegeert naar anderen het Front Controller Pattern
         // https://en.wikipedia.org/wiki/Front_controller
+        // https://www.tutorialspoint.com/design_pattern/front_controller_pattern.htm
         ModelController modelController = new ModelController();
         modelController.setView(new ModelView(modelController));
         // Er zijn maar een paar methoden van de controller public de rest is 
