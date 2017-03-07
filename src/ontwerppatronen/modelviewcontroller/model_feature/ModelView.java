@@ -1,10 +1,7 @@
 package ontwerppatronen.modelviewcontroller.model_feature;
 
-import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
@@ -36,7 +33,7 @@ import java.util.logging.Logger;
         controller.processMainMenuChoice(input);
     }
 
-    void showModel(Model model) {
+    void printModel(Model model) {
         print("-----------------------");
         System.out.println("Het model is: " + model);
         print("-----------------------\n");

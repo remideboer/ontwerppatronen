@@ -2,13 +2,6 @@ package ontwerppatronen.modelviewcontroller.model_feature;
 
 import ontwerppatronen.modelviewcontroller.ModelNotFoundException;
 import ontwerppatronen.modelviewcontroller.DataBaseNotFoundException;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
-import java.util.Scanner;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import ontwerppatronen.modelviewcontroller.Application;
 
 /**
  *
@@ -75,7 +68,7 @@ public class ModelController {
             // afhandeling voor als er geen model gevonden wordt
             view.printModelNotFoundMenu(id);
         }
-        view.showModel(model);
+        view.printModel(model);
     }
     
     
