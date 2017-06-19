@@ -22,7 +22,6 @@ public class Chain {
         return this;
     }
 
-    // We moeten een conclusie methode, build, generate of iets anders hebben
     void show() {
         System.out.println("End of Chain");
     }

@@ -10,9 +10,12 @@ package ontwerppatronen.chaining;
  * @author Remi
  */
 public class ChainRunner {
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         Chain chain = new Chain();
         chain.name("Remi").age(40).hobby("Play Guitar")
-             .show(); // build
+                .show(); // build
+        chain.name("Joop")
+                .show(); // build
     }
 }
