@@ -27,13 +27,14 @@ public class Klant {
     private final String bsn;
     private final String geboorteDatum;
 
-    public Klant(KlantBuilder builder) {
+    private Klant(KlantBuilder builder) {
         this.voornaam = builder.getVoornaam();
         this.achternaam = builder.getAchternaam();
         this.bsn = builder.getBsn();
         this.geboorteDatum = builder.getGeboorteDatum();
     }
 
+    // 1. variant Builder met statische binnenklase 
     public static class KlantBuilder {
 
         private String voornaam;
@@ -44,22 +45,7 @@ public class Klant {
         public KlantBuilder() {
         }
 
-        public String getVoornaam() {
-            return processNullOrEmpty(voornaam);
-        }
-        
-        public String getAchternaam() {
-            return processNullOrEmpty(achternaam);
-        }
-
-        public String getBsn() {
-            return processNullOrEmpty(bsn);
-        }
-
-        public String getGeboorteDatum() {
-            return processNullOrEmpty(geboorteDatum);
-        }
-
+        // 2. Return eigen instantie met this
         public KlantBuilder voornaam(String voornaam) {
             this.voornaam = voornaam;
             return this;
@@ -80,12 +66,12 @@ public class Klant {
             return this;
         }
 
-        // build method
+        // 3. build method waarin te bouwen object met behulp Builder wordt gemaakt
         public Klant build() {
             return new Klant(this);
         }
 
-        // check if inpiut string is null or empty, if so insert onbekend
+        // check if input string is null or empty, if so insert onbekend
         // otherwise pass back input string
         private String processNullOrEmpty(String param) {
             if (param == null || param.equals("")) {
@@ -93,6 +79,23 @@ public class Klant {
             } else {
                 return param;
             }
+        }
+        
+        // Extra: Encapsulatie attributen van de Builder zodat getters ook nog extra bewerkingen kunnen doen
+        public String getVoornaam() {
+            return processNullOrEmpty(voornaam);
+        }
+        
+        public String getAchternaam() {
+            return processNullOrEmpty(achternaam);
+        }
+
+        public String getBsn() {
+            return processNullOrEmpty(bsn);
+        }
+
+        public String getGeboorteDatum() {
+            return processNullOrEmpty(geboorteDatum);
         }
     }
 
