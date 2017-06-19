@@ -1,16 +1,15 @@
 package ontwerppatronen.chaining;
 
 /**
- * Niet echt een ontwerppatroon, Builder patroon gebruikt chaining
- * chaining geeft zijn eigen instantie steeds terug zodat er opnieuw een methode
- * op aangeroepen kan worden
- * FLUENT Api
+ * Door de methodeen instantie van zichzelf te laten teruggeven is het mogelijk
+ * om methode aanroepen aan elkaar te rijgen. Men noemt dit ook wel een Fluent API
+ * Het Builder patroon gebruikt chaining
  */
 public class Chain {
 
     Chain name(String name) {
         System.out.println("Name: " + name + " ");
-        return this; 
+        return this; // geef eigen instantie terug
     }
 
     Chain age(int age) {

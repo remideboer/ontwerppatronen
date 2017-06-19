@@ -1,5 +1,25 @@
 package ontwerppatronen.builder;
 
+/**
+ * Een patroon dat een Builder object gebruikt om een ander gewenst object te maken.
+ * Het builder object heeft methoden om attributen van het te bouwen object in te stellen
+ * Een builder object heeft een 'build' methode om het te bouwen object te instantiëren
+ * 
+ * Gebruik dit patroon in het geval van een constructor met veel parameters. 
+ * Vooral als er veel verschillende versies van constructoren bij een klasse nodig zijn
+ * Het is een oplossing voor het 'Telescoping Constructor' anti-patroon. 
+ * En je kunt hiermee een hele reeks opeenvolgende setters voorkomen.
+ * Je kunt dit patroon ook gebruiken als je niet alle waarden voor de attributen
+ * bij constructie kan weten, maar deze wel nodig zijn indien deze attributen final zijn.
+ * Er zijn verschillende varianten die zowel een statische binnenklassen gebruiken of
+ * een extern Builder object gebruiken
+ * 
+ * Naamgeving: Builder wordt gevolgd op de te bouwen soort klasse -> Builder voor klasse X, wordt XBuilder
+ * Enkele Voorbeelden:
+ * Java API -> StringBuilder: build method is hier toString(), retourneert een String
+ * Java API -> Locale.Builder: build method is hier build(), retourneert een Locale 
+ * Hibernate -> StandardServiceRegistryBuilder: build method is hier build(), retourneert een StandardServiceRegistry
+ */
 public class Klant {
 
     private final String voornaam;
