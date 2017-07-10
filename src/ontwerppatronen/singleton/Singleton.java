@@ -17,4 +17,9 @@ public class Singleton {
     public static Singleton getInstance(){
         return INSTANCE;
     }
+    
+    // methoden die verder van belang zijn, de functionalteit van de klasse
+    public void doeIets(){
+        System.out.println("Doe iets");
+    }
 }

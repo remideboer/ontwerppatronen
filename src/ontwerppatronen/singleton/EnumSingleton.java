@@ -6,7 +6,7 @@ package ontwerppatronen.singleton;
  */
 public enum EnumSingleton {
     INSTANCE;
-    public void String(){
-        
+    public void doeOokIets(){
+        System.out.println("Doe ook iets");
     }
 }

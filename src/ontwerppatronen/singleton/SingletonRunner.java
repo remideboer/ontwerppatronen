@@ -7,5 +7,8 @@ package ontwerppatronen.singleton;
 public class SingletonRunner {
     public static void main(String[] args) {
         Singleton s = Singleton.getInstance();
+        s.doeIets();
+        EnumSingleton e = EnumSingleton.INSTANCE;
+        e.doeOokIets();
     }
 }
