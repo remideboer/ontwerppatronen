@@ -4,7 +4,7 @@ package ontwerppatronen.singleton;
  * Simpel Singleton voor singlethreaded environments
  * @author Remi
  */
-public class Singleton {
+public final class Singleton {
     // 1. we hebben een klassenvariabele (static) nodig om de Singleton tijdens het laden in op te slaan
     // final maken als extra dan kan er via reflection ook geen andere instantie aan toegewezen worden
     private final static Singleton INSTANCE= new Singleton(); // kan ook in constructor en dan in getter instantieeren
