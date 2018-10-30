@@ -1,6 +1,6 @@
-package ontwerppatronen.command.radio;
+package ontwerppatronen.command.simple.radio;
 
-import ontwerppatronen.command.Command;
+import ontwerppatronen.command.simple.Command;
 
 public class RadioOn implements Command {
 

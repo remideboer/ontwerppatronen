@@ -1,6 +1,6 @@
-package ontwerppatronen.command.tv;
+package ontwerppatronen.command.simple.tv;
 
-import ontwerppatronen.command.Command;
+import ontwerppatronen.command.simple.Command;
 
 public class TvOn implements Command {
 

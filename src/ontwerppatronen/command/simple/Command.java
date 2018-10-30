@@ -1,4 +1,4 @@
-package ontwerppatronen.command;
+package ontwerppatronen.command.simple;
 
 public interface Command {
 

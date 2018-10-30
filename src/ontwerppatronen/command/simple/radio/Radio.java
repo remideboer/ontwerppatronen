@@ -1,4 +1,4 @@
-package ontwerppatronen.command.radio;
+package ontwerppatronen.command.simple.radio;
 
 public class Radio {
 

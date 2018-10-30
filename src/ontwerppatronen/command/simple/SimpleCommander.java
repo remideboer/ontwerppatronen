@@ -1,12 +1,12 @@
-package ontwerppatronen.command;
+package ontwerppatronen.command.simple;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
 
-import ontwerppatronen.command.radio.Radio;
-import ontwerppatronen.command.radio.RadioOn;
-import ontwerppatronen.command.tv.TV;
-import ontwerppatronen.command.tv.TvOn;
+import ontwerppatronen.command.simple.radio.Radio;
+import ontwerppatronen.command.simple.radio.RadioOn;
+import ontwerppatronen.command.simple.tv.TV;
+import ontwerppatronen.command.simple.tv.TvOn;
 
 /**
 * Launcher to demonstrate the GoF Command Pattern

@@ -1,4 +1,4 @@
-package ontwerppatronen.command.tv;
+package ontwerppatronen.command.simple.tv;
 
 public class TV {
 
