@@ -3,3 +3,6 @@ nbproject/private/private.xml
 /build/
 /dist/
 db.txt
+/bin
+.classpath
+.project
