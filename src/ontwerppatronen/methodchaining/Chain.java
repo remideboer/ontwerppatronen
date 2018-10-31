@@ -1,9 +1,9 @@
-package ontwerppatronen.fluentinterface;
+package ontwerppatronen.methodchaining;
 
 /**
  * Door de methodeen instantie van zichzelf te laten teruggeven is het mogelijk
  * om methode aanroepen aan elkaar te rijgen. Men noemt dit ook wel een Fluent API
- * Het Builder patroon gebruikt fluentinterface
+ * Het Builder patroon gebruikt methodchaining
  */
 public class Chain {
 
