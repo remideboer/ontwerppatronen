@@ -1,4 +1,4 @@
-package ontwerppatronen.methodchaining;
+package ontwerppatronen.creational.builder.methodchaining;
 
 /**
  * Door de methodeen instantie van zichzelf te laten teruggeven is het mogelijk
