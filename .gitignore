@@ -6,3 +6,5 @@ db.txt
 /bin
 .classpath
 .project
+*.iml
+.idea
