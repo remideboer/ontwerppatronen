@@ -9,6 +9,6 @@ package ontwerppatronen.strategy;
  *
  * @author Remi
  */
-interface MovementStragegy {
+interface MovementStrategy {
     void move();
 }

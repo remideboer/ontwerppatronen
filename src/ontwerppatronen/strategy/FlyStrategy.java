@@ -9,14 +9,14 @@ package ontwerppatronen.strategy;
  *
  * @author Remi
  */
-class FlyStrategy implements MovementStragegy {
+class FlyStrategy implements MovementStrategy {
 
     public FlyStrategy() {
     }
 
     @Override
     public void move() {
-        System.out.println("Vliegen");
+        System.out.println("Flying");
     }
     
 }

@@ -11,7 +11,7 @@ package ontwerppatronen.strategy;
  */
 public class Vehicle {
     // 1. Strategy Holder
-    private MovementStragegy strat; // delegeert 
+    private MovementStrategy strat; // delegeert 
     
     // om het probleem van de afwezige strategie af te dwingen/ inzichtelijk te maken
     // kun je deze als argument in een constructor vereisen
@@ -30,7 +30,7 @@ public class Vehicle {
     }
     
     // 3. Strategy setter
-    public void setStrategy(MovementStragegy strat){
+    public void setStrategy(MovementStrategy strat){
         this.strat = strat;
     }
 }

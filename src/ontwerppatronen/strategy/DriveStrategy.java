@@ -9,7 +9,7 @@ package ontwerppatronen.strategy;
  *
  * @author Remi
  */
-class DriveStrategy implements MovementStragegy {
+class DriveStrategy implements MovementStrategy {
 
     public DriveStrategy() {
     }
