@@ -29,9 +29,9 @@ public class CompositeLauncher {
 	public static void main(String[] args) {
 		Presenter macSalesPerson = new Merchant("Joop");
 		// mac books can be loaded with a different processor
-		MacBookPro macBookProI5 = new MacBookPro();
+		MacBook macBookProI5 = new MacBook();
 		macBookProI5.add(new IntelCoreI5());
-		MacBookPro macBookProM3 = new MacBookPro();
+		MacBook macBookProM3 = new MacBook();
 		macBookProM3.add(new IntelCoreM3());
 		
 		macSalesPerson.add(macBookProM3);
