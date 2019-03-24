@@ -1,4 +1,6 @@
-package ontwerppatronen.structural.composite.showcase;
+package ontwerppatronen.structural.composite.showcase.products.components.composites;
+
+import ontwerppatronen.structural.composite.showcase.products.components.Presentable;
 
 import java.util.*;
 
@@ -9,7 +11,7 @@ import java.util.*;
  * @author remideboer
  *
  */
-public abstract class Presenter implements Presentable{
+public abstract class Presenter implements Presentable {
 
 	private List<Presentable> items = new ArrayList<>();
 	

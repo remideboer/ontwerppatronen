@@ -1,6 +1,6 @@
-package ontwerppatronen.structural.composite.showcase.products.components;
+package ontwerppatronen.structural.composite.showcase.products.components.leafs;
 
-import ontwerppatronen.structural.composite.showcase.Presentable;
+import ontwerppatronen.structural.composite.showcase.products.components.Presentable;
 
 public class IntelCoreI5 implements Presentable {
 

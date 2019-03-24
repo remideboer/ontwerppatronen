@@ -1,6 +1,4 @@
-package ontwerppatronen.structural.composite.showcase.products;
-
-import ontwerppatronen.structural.composite.showcase.Presenter;
+package ontwerppatronen.structural.composite.showcase.products.components.composites;
 
 public class MacBook extends Presenter {
 
