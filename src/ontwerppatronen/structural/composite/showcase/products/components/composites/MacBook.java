@@ -1,8 +1,6 @@
-package ontwerppatronen.structural.composite.showcase.products;
+package ontwerppatronen.structural.composite.showcase.products.components.composites;
 
-import ontwerppatronen.structural.composite.showcase.Presenter;
-
-public class MacBookPro extends Presenter {
+public class MacBook extends Presenter {
 
 	@Override
 	public void show() {

@@ -1,9 +1,12 @@
 package ontwerppatronen.structural.composite;
 
-import ontwerppatronen.structural.composite.showcase.*;
-import ontwerppatronen.structural.composite.showcase.products.*;
-import ontwerppatronen.structural.composite.showcase.products.components.IntelCoreI5;
-import ontwerppatronen.structural.composite.showcase.products.components.IntelCoreM3;
+import ontwerppatronen.structural.composite.showcase.products.components.composites.MacBook;
+import ontwerppatronen.structural.composite.showcase.products.components.composites.Merchant;
+import ontwerppatronen.structural.composite.showcase.products.components.composites.Presenter;
+import ontwerppatronen.structural.composite.showcase.products.components.leafs.IPadPro;
+import ontwerppatronen.structural.composite.showcase.products.components.leafs.IPhoneXS;
+import ontwerppatronen.structural.composite.showcase.products.components.leafs.IntelCoreI5;
+import ontwerppatronen.structural.composite.showcase.products.components.leafs.IntelCoreM3;
 
 /**
  * Used to demonstrate the Composite pattern
