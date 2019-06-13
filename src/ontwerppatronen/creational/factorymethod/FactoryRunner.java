@@ -12,7 +12,7 @@ package ontwerppatronen.creational.factorymethod;
 public class FactoryRunner {
     public static void main(String[] args) {
         VehicleFactory fac = new VehicleFactory();
-        fac.setSetting(4);
+        fac.setSetting(2);
         Vehicle veh = fac.create();
         veh.move();
     }

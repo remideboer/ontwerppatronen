@@ -9,7 +9,7 @@ package ontwerppatronen.creational.factorymethod;
  *
  * @author Remi
  */
-public class VehicleFactory {
+public class VehicleFactory implements IVehicleFactory{
     private int setting = 0;
 
     public void setSetting(int setting) {
